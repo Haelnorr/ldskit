@@ -1,9 +1,6 @@
 /venv/
-/.env
-/.flaskenv
 /logs/
-/db/
-/config/
+/db/app.db
 /DESIGNDOC.txt
 /.idea/
 /mail.bat

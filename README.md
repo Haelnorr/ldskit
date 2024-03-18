@@ -19,7 +19,11 @@ This will add a superuser with the name 'admin' that will let you manage and cre
 
 **Config**  
 To set the name of your application, go to`/lds/definitions/__init.py__`
-and change the `app_name` variable
+and change the `app_name` variable  
+Log config can be set in the `logger.config` file  
+Mailing alerts can be configured in the `mail.config` file  
+Environment variables can be set in `.env` (or you can set your own environment variables in place of using the `.env` file)  
+**IMPORTANT: Flask requires a secret key to be set. Use the `SECRET_KEY` environment variable, and it is recommended to generate a random string for this and keep it hidden
 
 
 
