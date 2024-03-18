@@ -1,0 +1,4 @@
+If the application is configured to use a sqlite db file, this is the default place to store those files.
+By default it is configured to use a file in this folder named 'app.db'.
+If this folder is empty when the 'flask db upgrade' command is run (assuming this is still the configured place for db files) then it will automatically create the file
+This folder must be present when the 'flask db upgrade' command is run, or it will fail.

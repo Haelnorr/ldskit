@@ -1,0 +1,11 @@
+/venv/
+/.env
+/.flaskenv
+/logs/
+/db/
+/config/
+/DESIGNDOC.txt
+/.idea/
+/mail.bat
+/test.bat
+/test.py
